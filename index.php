@@ -25,3 +25,15 @@ foreach ($movieList as $movieSingle) {
     echo "<li>" . "<strong>" . "Genere: " . "</strong>" . $movieSingle['genere'] . "</li>";
     echo "</ul>";
 }
+
+echo "<hr>";
+/* foreach ($movieList as $movieSingle) {
+    $film = new Movie($movieSingle['titolo'], $movieSingle['protagonista'], $movieSingle['genere']);
+
+
+    echo "<ul>";
+    echo "<li>" . "<strong>" .  "Titolo: " . "</strong>" . $film->titolo . "</li>";
+    echo "<li>" . "<strong>" . "Protagonista: " . "</strong>" .  $film->protagonista . "</li>";
+    echo "<li>" . "<strong>" . "Genere: " . "</strong>" .  $film->genere . "</li>";
+    echo "</ul>";
+} */
